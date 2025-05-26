@@ -3,8 +3,18 @@
 A simple, clean, and responsive web app that displays helpful college tips in a card-based gallery format. Built with Next.js and Tailwind CSS, this project aims to provide an easy-to-browse interface for students looking for quick and useful advice.
 
 
+![Screenshot 2025-05-26 173744](https://github.com/user-attachments/assets/7d2c15f9-e572-44f7-bde5-ba1ebe6b5b5e)
 
-"C:\Users\sridhar reddy\Pictures\Screenshots\Screenshot 2025-05-26 173744.png"
+
+
+![Screenshot 2025-05-26 173847](https://github.com/user-attachments/assets/844c620d-75c6-4df3-8cf8-43bd1d2c70e6)
+
+
+
+
+![Screenshot 2025-05-26 173827](https://github.com/user-attachments/assets/d8a0f54a-4234-4d4d-abaa-a48891e2ce95)
+
+
 
 
 ## 🌐 Live Demo
