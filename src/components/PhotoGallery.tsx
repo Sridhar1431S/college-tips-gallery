@@ -148,28 +148,28 @@ export const PhotoGallery: React.FC = () => {
   }, [selectedCategory]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-cyan-900 relative overflow-hidden">
-      {/* Animated Background Elements */}
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 relative overflow-hidden">
+      {/* Professional Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute top-3/4 right-1/4 w-80 h-80 bg-cyan-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute top-1/2 left-1/2 w-72 h-72 bg-yellow-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-3/4 right-1/4 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 w-72 h-72 bg-slate-500/10 rounded-full blur-3xl"></div>
       </div>
 
       {/* Header */}
       <div className="relative text-center py-16 px-4">
-        <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-400 via-purple-300 to-cyan-300 bg-clip-text text-transparent mb-6 tracking-wider drop-shadow-2xl">
+        <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-blue-400 via-indigo-300 to-slate-300 bg-clip-text text-transparent mb-6 tracking-wider drop-shadow-2xl">
           CollegeTips
         </h1>
-        <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-400 bg-clip-text text-transparent mb-4">
-          NEON GALLERY
+        <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent mb-4">
+          PROFESSIONAL GALLERY
         </h2>
-        <p className="text-xl text-cyan-200 max-w-2xl mx-auto font-medium tracking-wide">
-          Experience our vibrant journey of empowering students across India! ⚡🌟
+        <p className="text-xl text-slate-200 max-w-2xl mx-auto font-medium tracking-wide">
+          Experience our journey of empowering students across India! 🌟
         </p>
         
-        {/* Neon border decoration */}
-        <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 shadow-lg shadow-purple-500/50"></div>
+        {/* Professional border decoration */}
+        <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-slate-500 shadow-lg"></div>
       </div>
 
       {/* Category Filter */}
