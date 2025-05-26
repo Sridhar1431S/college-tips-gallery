@@ -151,25 +151,25 @@ export const PhotoGallery: React.FC = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 relative overflow-hidden">
       {/* Professional Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute top-3/4 right-1/4 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 w-72 h-72 bg-slate-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/4 left-1/4 w-48 h-48 sm:w-72 sm:h-72 lg:w-96 lg:h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-3/4 right-1/4 w-40 h-40 sm:w-60 sm:h-60 lg:w-80 lg:h-80 bg-indigo-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 w-36 h-36 sm:w-54 sm:h-54 lg:w-72 lg:h-72 bg-slate-500/10 rounded-full blur-3xl"></div>
       </div>
 
       {/* Header */}
-      <div className="relative text-center py-16 px-4">
-        <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-blue-400 via-indigo-300 to-slate-300 bg-clip-text text-transparent mb-6 tracking-wider drop-shadow-2xl">
+      <div className="relative text-center py-8 sm:py-12 lg:py-16 px-2 sm:px-4">
+        <h1 className="text-3xl sm:text-5xl lg:text-6xl xl:text-8xl font-black bg-gradient-to-r from-blue-400 via-indigo-300 to-slate-300 bg-clip-text text-transparent mb-3 sm:mb-4 lg:mb-6 tracking-wider drop-shadow-2xl">
           CollegeTips
         </h1>
-        <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent mb-4">
+        <h2 className="text-lg sm:text-2xl lg:text-3xl xl:text-4xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent mb-2 sm:mb-3 lg:mb-4">
           PROFESSIONAL GALLERY
         </h2>
-        <p className="text-xl text-slate-200 max-w-2xl mx-auto font-medium tracking-wide">
+        <p className="text-sm sm:text-lg lg:text-xl text-slate-200 max-w-xs sm:max-w-lg lg:max-w-2xl mx-auto font-medium tracking-wide px-4">
           Experience our journey of empowering students across India! 🌟
         </p>
         
         {/* Professional border decoration */}
-        <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-slate-500 shadow-lg"></div>
+        <div className="absolute inset-x-0 bottom-0 h-0.5 sm:h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-slate-500 shadow-lg"></div>
       </div>
 
       {/* Category Filter */}
