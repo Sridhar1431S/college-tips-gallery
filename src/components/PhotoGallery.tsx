@@ -148,15 +148,28 @@ export const PhotoGallery: React.FC = () => {
   }, [selectedCategory]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-green-50">
+    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-cyan-900 relative overflow-hidden">
+      {/* Animated Background Elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute top-3/4 right-1/4 w-80 h-80 bg-cyan-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute top-1/2 left-1/2 w-72 h-72 bg-yellow-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
+      </div>
+
       {/* Header */}
-      <div className="text-center py-16 px-4">
-        <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-600 via-red-500 to-green-600 bg-clip-text text-transparent mb-4">
-          CollegeTips Gallery
+      <div className="relative text-center py-16 px-4">
+        <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-400 via-purple-300 to-cyan-300 bg-clip-text text-transparent mb-6 tracking-wider drop-shadow-2xl">
+          CollegeTips
         </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Experience our vibrant journey of empowering students across India! 🚀✨
+        <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-400 bg-clip-text text-transparent mb-4">
+          NEON GALLERY
+        </h2>
+        <p className="text-xl text-cyan-200 max-w-2xl mx-auto font-medium tracking-wide">
+          Experience our vibrant journey of empowering students across India! ⚡🌟
         </p>
+        
+        {/* Neon border decoration */}
+        <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 shadow-lg shadow-purple-500/50"></div>
       </div>
 
       {/* Category Filter */}
