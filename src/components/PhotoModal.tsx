@@ -48,7 +48,7 @@ export const PhotoModal: React.FC<PhotoModalProps> = ({ photo, onClose }) => {
           {/* Content */}
           <div className="lg:w-1/3 p-8">
             <div className="mb-4">
-              <span className="inline-block px-3 py-1 bg-gradient-to-r from-purple-100 to-pink-100 text-purple-700 text-sm font-medium rounded-full">
+              <span className="inline-block px-3 py-1 bg-gradient-to-r from-orange-100 to-green-100 text-orange-700 text-sm font-medium rounded-full">
                 {photo.category}
               </span>
             </div>
@@ -64,7 +64,7 @@ export const PhotoModal: React.FC<PhotoModalProps> = ({ photo, onClose }) => {
             <div className="mt-8 pt-6 border-t border-gray-200">
               <div className="flex items-center justify-between text-sm text-gray-500">
                 <span>CollegeTips Gallery</span>
-                <span>✨ Made with love</span>
+                <span>🚀 Empowering Students</span>
               </div>
             </div>
           </div>

@@ -22,14 +22,14 @@ export const PhotoCard: React.FC<PhotoCardProps> = ({ photo, onClick, index }) =
           <img
             src={photo.src}
             alt={photo.alt}
-            className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-110"
+            className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110"
             loading="lazy"
           />
           
           {/* Overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-              <div className="text-xs font-medium text-purple-300 mb-1">
+              <div className="text-xs font-medium text-orange-300 mb-1">
                 {photo.category}
               </div>
               <h3 className="text-lg font-bold mb-2">{photo.title}</h3>
@@ -40,7 +40,7 @@ export const PhotoCard: React.FC<PhotoCardProps> = ({ photo, onClick, index }) =
           </div>
 
           {/* Category Badge */}
-          <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium text-gray-700">
+          <div className="absolute top-4 left-4 bg-gradient-to-r from-orange-500 to-green-500 text-white px-3 py-1 rounded-full text-xs font-medium">
             {photo.category}
           </div>
 
